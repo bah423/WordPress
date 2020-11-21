@@ -1,0 +1,60 @@
+# Translation of Plugins - Elementor Element Condition - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - Elementor Element Condition - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-25 08:52:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Elementor Element Condition - Development (trunk)\n"
+
+#: inc/controls.php:28
+msgid "Currently the conditions work with 2 operands and 1 operator ( == , != , === , !== , < , > , <= , >= ). <br/>If you want to check if a variable it has value, compare it with null (if \"var!=null\" that means it var has value)"
+msgstr "Actuellement les conditions fonctionnent avec 2 arguments et 1 opérateur ( == , != , === , !== , < , > , <= , >= ). <br/>Si vous souhaitez vérifier si une variable a une valeur, comparez-la à null (si \"var!=null\" c’est à dire que var a une valeur)."
+
+#: inc/controls.php:47
+msgid "For change to be visible unfocus the element (click on another element) and focus again.<ul><li style=\"background:lightpink\">Red - unchanged</li> <li style=\"background:lightgreen\">Green - changed</lu></ul>You can add your own variables, ie. hello: <small><br/>add_filter( \"eleconditions_vars\",function($custom_vars){<br/>$custom_vars[\"hello\"]=\"Hello World!\";<br/> return $custom_vars;<br/>});</small>"
+msgstr "Pour que le changement soit visible, défocalisez l’élément (cliquez sur un autre élément) et faites à nouveau la mise au point.<ul><li style=\"background:lightpink\">Red - unchanged</li> <li style=\"background:lightgreen\">Vert - modifié</lu></ul>Vous pouvez ajouter vos propres variables, i.x hello: <small><br/>add_filter( \"eleconditions_vars\",function($custom_vars){<br/>$custom_vars[\"hello\"]=\"Hello World!\";<br/> return $custom_vars;<br/>});</small>"
+
+#: inc/controls.php:39
+msgid "On"
+msgstr "Actif"
+
+#: inc/controls.php:36
+msgid "Debug mode"
+msgstr "Mode débogage"
+
+#: inc/controls.php:40
+msgid "Off"
+msgstr "Inactif"
+
+#. Author URI of the plugin/theme
+msgid "https://www.leadpro.ro"
+msgstr "https://www.leadpro.ro"
+
+#. Author of the plugin/theme
+msgid "Liviu Duda"
+msgstr "Liviu Duda"
+
+#. Description of the plugin/theme
+msgid "Elementor conditions for elements and widgets."
+msgstr "Conditions Elementor pour éléments et widgets."
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.eletemplator.com"
+msgstr "https://www.eletemplator.com"
+
+#. Plugin Name of the plugin/theme
+msgid "Ele Conditions"
+msgstr "Ele Conditions"
+
+#: inc/controls.php:21
+msgid "Write your conditions:"
+msgstr "Écrivez vos conditions :"
+
+#: inc/controls.php:13
+msgid "Condition"
+msgstr "Condition"
